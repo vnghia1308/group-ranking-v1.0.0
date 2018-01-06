@@ -1,4 +1,5 @@
 [Group Ranking v1.0.0]
+Membership rating system for Facebook Group
 
 Step 1: Config my token, group id,... in server/config.php
 *Note: please using token iPhone/iOS/Android
