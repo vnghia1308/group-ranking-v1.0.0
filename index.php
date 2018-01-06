@@ -158,12 +158,10 @@
 					$("#rankResult").find('#name').text(s.name)
 					$("#rankResult").find('#rank').text(s.rank)
 					$("#rankResult").find('#point').text(s.point)
-				} else
-					if(s.error == true){
-						$("#rankResult").hide()
-						$("#rankErrors").text(s.message).show()
-					}
-					
+				} else if(s.error == true){
+					$("#rankResult").hide()
+					$("#rankErrors").text(s.message).show()
+				}
 			},
 			error: function(){
 				$("#rankErrors").text("Đã xảy ra lỗi!").show()
