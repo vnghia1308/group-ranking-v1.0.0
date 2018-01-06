@@ -67,7 +67,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="https://photoshopvn.com"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Trang chủ <span class="sr-only">(current)</span></a></li>
+            <li><a href="/?home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Trang chủ <span class="sr-only">(current)</span></a></li>
             <li class="active"><a href="/">Bảng xếp hạng</a></li>
 			</ul>
         </div>
