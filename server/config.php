@@ -2,6 +2,9 @@
 /* Developed by Vy Nghia */
 error_reporting(0); // Turn off error reporting text
 
+// Since last [rank_day] days
+define('day_rank', 30);
+
 // Secret key
 define('SECRET', 'NghiaisGay');
 
