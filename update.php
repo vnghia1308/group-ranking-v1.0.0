@@ -115,7 +115,7 @@ if(isset($_GET['secret']) && $_GET['secret'] == SECRET): ?>
 '".$pnt['points_per_reacted']."'];"; ?>
 
 
-<?php echo "rank('".GroupID."', '".access_token."', '".SECRET."', points);" ?>
+<?php echo "rank('".GroupID."', '".access_token."', '".SECRET."', ".day_rank.", points);" ?>
 </script>
 </body>
 </html>
