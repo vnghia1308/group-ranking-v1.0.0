@@ -1,6 +1,5 @@
 /* Developed by Alice Madona */
-function rank(id, token, secret, x){
-	console.log(x[0]);
+function rank(id, token, secret, day, x){
   var rank=new Vue({
       el: "#ranking",
       data: {
@@ -16,7 +15,7 @@ function rank(id, token, secret, x){
           maxPages:0,
           message:'',
           ready:!1,
-          since:30,
+          since:day,
           perPage:100
       },
       mounted: function () {
@@ -55,7 +54,7 @@ function rank(id, token, secret, x){
 					  points_per_reaction: x[3],
 					  points_per_reacted: x[4]
               });
-              ranking.since(30).progress(function(completed,requests){
+              ranking.since(day).progress(function(completed,requests){
                   self.percent=(completed/requests*100).toFixed(2);
               }).done(function(ranks){
                   self.all=ranks;
