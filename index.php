@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf_name" content="csrf_test_name">
+    <meta name="csrf_hash" content="b4493fc81221e608e1d766ca37358500">
     
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="cache-control" content="cache">
@@ -42,7 +44,6 @@
     </style>
   </head>
   <body>
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
