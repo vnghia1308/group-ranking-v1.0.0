@@ -109,14 +109,14 @@
                   <th class="text-center">Điểm</th>
                 </tr>
               </thead>
-				<?php for($i = 0; $i < $rankforNumber; $i++): ?>
-				<tbody>
-				<td><?php echo $i+1 ?></td>
-				<td><img class="avatar lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://graph.facebook.com/<?php echo $rank[$i]['id'] ?>/picture?width=40&height=40" alt="Hoàng Lâm" width="40px" height="40px"> <a href="https://wwww.facebook.com/<?php echo $rank[$i]['id'] ?>"><?php echo $rank[$i]['name'] ?></a></td>
-				<td><?php echo $rank[$i]['post'] ?></td>
-				<td><?php echo $rank[$i]['points'] ?></td>
-				</tbody>
-				<?php endfor; ?>
+		<?php for($i = 0; $i < $rankforNumber; $i++): ?>
+		<tbody>
+			<td><?php echo $i+1 ?></td>
+			<td><img class="avatar lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://graph.facebook.com/<?php echo $rank[$i]['id'] ?>/picture?width=40&height=40" alt="Hoàng Lâm" width="40px" height="40px"> <a href="https://wwww.facebook.com/<?php echo $rank[$i]['id'] ?>"><?php echo $rank[$i]['name'] ?></a></td>
+			<td><?php echo $rank[$i]['post'] ?></td>
+			<td><?php echo $rank[$i]['points'] ?></td>
+		</tbody>
+		<?php endfor; ?>
             </table>
 			</div>
         </div>
