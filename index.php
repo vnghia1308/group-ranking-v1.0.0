@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf_name" content="csrf_test_name">
-    <meta name="csrf_hash" content="b4493fc81221e608e1d766ca37358500">
     
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="cache-control" content="cache">
@@ -44,15 +42,6 @@
     </style>
   </head>
   <body>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-91482018-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-91482018-1');
-</script>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
